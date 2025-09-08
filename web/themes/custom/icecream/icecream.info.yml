@@ -1,0 +1,17 @@
+name: IceCream
+type: theme
+description: Simple IceCream theme
+package: Custom
+version: 1.0.0
+core_version_requirement: ^10 || ^11
+base theme: olivero
+starterkit: false
+libraries:
+  - icecream/global
+regions:
+  header: header
+  content: content
+  sidebar: sidebar
+  footer: footer
+  menu: menu
+
