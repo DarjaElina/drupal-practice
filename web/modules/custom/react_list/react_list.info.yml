@@ -1,0 +1,7 @@
+name: Drupal React
+description: "A simple module to fetch items"
+type: module
+core_version_requirement: ^10 || ^11
+version: 0.0.1
+dependencies:
+  - drupal:node

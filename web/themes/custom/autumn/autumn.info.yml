@@ -1,0 +1,16 @@
+name: Autumn
+type: theme
+description: A simple cozy autumn-inspired Drupal theme 🍂
+package: Custom
+version: 1.0.0
+core_version_requirement: ^10 || ^11
+base theme: olivero
+starterkit: false
+libraries:
+  - autumn/global
+regions:
+  header: Header
+  menu: Menu
+  content: Content
+  sidebar: Sidebar
+  footer: Footer

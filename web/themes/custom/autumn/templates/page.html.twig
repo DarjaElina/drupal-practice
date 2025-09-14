@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+  </head>
+  <body>
+   <header class="header">
+    <div class="header-inner">
+      <div class="branding">
+        {{ page.header }}
+      </div>
+      <div class="heading">
+        <h1>🍁 Welcome to Drupal Autumn 🍂</h1>
+      </div>
+      <nav class="menu">
+        {{ page.menu }}
+      </nav>
+    </div>
+  </header>
+
+    <main class="main">
+      <div class="content">
+        {{ page.content }}
+      </div>
+      {% if page.sidebar %}
+        <aside class="sidebar">
+          {{ page.sidebar }}
+        </aside>
+      {% endif %}
+    </main>
+
+    <footer class="footer">
+      {{ page.footer }}
+      <p>Made with ☕ and 🎃 vibes</p>
+    </footer>
+  </body>
+</html>

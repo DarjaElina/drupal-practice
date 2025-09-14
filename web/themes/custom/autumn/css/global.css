@@ -1,0 +1,130 @@
+body {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  overflow-x: hidden;
+  background: #fdfaf6;
+  color: #3e2c1c;
+}
+
+a, a:active, a:hover, a:visited {
+  text-decoration: none;
+  color: #6b3e26;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #a8442d;
+}
+
+ul, ol {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  background: linear-gradient(135deg, #e58e26, #d35400);
+  padding-bottom: 20px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+}
+
+#block-icecream-theme-branding a {
+  font-size: 22px;
+  font-weight: bold;
+  color: #fff8f0;
+}
+
+.heading {
+  color: #fff8f0;
+  font-size: 36px;
+  text-align: center;
+  padding: 20px 0;
+  font-family: 'Georgia', serif;
+}
+
+#block-icecream-theme-main-menu ul {
+  text-align: center;
+  background: #f7d9a5;
+  padding: 10px 0;
+}
+
+#block-icecream-theme-main-menu ul li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+#block-icecream-theme-main-menu ul li a {
+  padding: 8px 15px;
+  font-size: 18px;
+  color: #3e2c1c;
+  border-radius: 8px;
+  background: #f5c16c;
+  transition: 0.3s;
+}
+
+#block-icecream-theme-main-menu ul li a:hover {
+  background: #a8442d;
+  color: #fff;
+}
+
+.content {
+  width: 70%;
+  margin: auto;
+  padding: 50px 0;
+  line-height: 1.6;
+}
+
+.footer {
+  background: #3e2c1c;
+  color: #f5e6d3;
+  text-align: center;
+  padding: 30px 20px;
+  margin-top: 40px;
+}
+
+#block-icecream-theme-footer ul li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+#block-icecream-theme-footer ul li a {
+  color: #f5e6d3;
+}
+
+#block-icecream-theme-footer ul li a:hover {
+  color: #f39c12;
+}
+
+#block-autumn-theme-main-menu ul {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 10px;
+  background: #f7d9a5;
+  border-radius: 8px;
+}
+
+#block-autumn-theme-main-menu ul li {
+  list-style: none;
+}
+
+#block-autumn-theme-main-menu ul li a {
+  padding: 8px 15px;
+  border-radius: 5px;
+  background: #f5c16c;
+  color: #3e2c1c;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+#block-autumn-theme-main-menu ul li a:hover {
+  background: #a8442d;
+  color: #fff;
+}
+
+.menu {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
